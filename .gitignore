@@ -1,0 +1,106 @@
+# ===========================================
+# PEPPER AI TUTOR - Git Ignore File
+# ===========================================
+# This file tells Git which files NOT to upload to GitHub
+# ===========================================
+
+# ------------------------------------
+# SECURITY - NEVER UPLOAD THESE!
+# ------------------------------------
+# Environment variables (contains secrets!)
+.env
+
+# API keys or credentials
+*.key
+*.pem
+credentials.json
+
+# ------------------------------------
+# VIRTUAL ENVIRONMENT
+# ------------------------------------
+venv/
+env/
+.venv/
+ENV/
+
+# ------------------------------------
+# DATABASE & LOGS
+# ------------------------------------
+*.db
+*.sqlite
+*.log
+*.log.*
+
+# ------------------------------------
+# PYTHON CACHE
+# ------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+build/
+dist/
+eggs/
+*.egg-info/
+*.egg
+
+# ------------------------------------
+# TEMPORARY FILES
+# ------------------------------------
+temp_*
+tmp_*
+*.tmp
+*.temp
+
+# ------------------------------------
+# IDE / EDITOR FILES
+# ------------------------------------
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------------------
+# OPERATING SYSTEM FILES
+# ------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+
+# ------------------------------------
+# MISC
+# ------------------------------------
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Testing
+.pytest_cache/
+.tox/
+
+# Documentation builds
+docs/_build/
