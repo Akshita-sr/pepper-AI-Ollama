@@ -40,6 +40,8 @@ if sys.version_info[0] >= 3:
     sys.exit(1)
 
 # Python 2.7 imports
+# type: ignore
+# pyright: ignore
 try:
     from BaseHTTPServer import HTTPServer, BaseHTTPRequestHandler
 except ImportError:
